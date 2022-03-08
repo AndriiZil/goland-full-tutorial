@@ -31,17 +31,33 @@
 * Packages
 * Goroutines
 
-## Install Go by link `https://go.dev/doc/install` or manually
-## Manually installation
-1. Downloading the Go tarball (08.02.2022)
+## Install Go 
+1. By link `https://go.dev/doc/install` or manually
+2. Manually installation
+1.1 Downloading the Go tarball (08.02.2022)
 ```bash
   wget -c https://dl.google.com/go/go1.17.8.linux-amd64.tar.gz -O - | sudo tar -xz -C /usr/local
 ```
-2. Adjusting the Path Variable
-```
+1.2 Adjusting the Path Variable
+```bash
   export PATH=$PATH:/usr/local/go/bin
 ```
-3. Verifying the Go Installation
-```
+1.3 Verifying the Go Installation
+```bash
   go version
+```
+3. From console
+```bash
+  sudo snap install go --classic
+```
+## Create a new module
+```bash
+  go mod init <module path>
+```
+```bash
+  go mod init booking-app
+```
+## In order to run application 
+```bash
+  go run main.go
 ```
