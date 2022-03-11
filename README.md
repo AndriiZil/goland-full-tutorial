@@ -25,7 +25,7 @@
 * User Input
 * Pointers
 * Scope Rules
-* Loops
+* Loops (only for loop)
 * If-else & Switch
 * Functions
 * Packages
